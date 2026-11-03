@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +9,9 @@
 
     <h1></h1>
     <h2></h2>
+    Minimun <input type="number" id="min" name="">
+    Maximum <input type="number" id="max" name="">
+    <button id="valider">Valider</button>
 
     <table>
         <thead>
@@ -26,4 +29,45 @@
     <script src="tp08-tableau-pays.js"></script>
 
 </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pollution par pays</title>
+</head>
+
+<body>
+
+    <h1></h1>
+    <h2></h2>
+
+    <label for="min">Minimum :</label>
+    <input type="number" id="min">
+
+    <label for="max">Maximum :</label>
+    <input type="number" id="max">
+
+    <button id="valider">Valider</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Pays</th>
+                <th>Valeur</th>
+                <th>Pourcentage</th>
+            </tr>
+        </thead>
+
+        <tbody id="tableauPays"></tbody>
+    </table>
+
+    <script src="tp08-tableau-pays.js"></script>
+
+</body>
+
 </html>
+
+
